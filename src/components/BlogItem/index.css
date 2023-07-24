@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.item-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 70vw;
+  border: 2px solid #8e8e8e;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.item-link {
+  text-decoration: none;
+  font-family: roboto;
+}
+
+.item-image {
+  width: 600px;
+  margin-right: 40px;
+}
+
+.item-title {
+  font-size: 37px;
+  color: black;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+}
+
+.item-topic {
+  font-size: 24px;
+  color: #8e8e8e;
+}
+
+.author-name {
+  font-size: 19px;
+  color: #8e8e8e;
+}
+
+.avatar {
+  width: 70px;
+  border-radius: 70px;
+  margin-right: 20px;
+}
